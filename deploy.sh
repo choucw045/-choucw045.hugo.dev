@@ -15,7 +15,10 @@ fi
 echo ""
 echo ""
 echo "Committing changes to $(pwd)"
-hugo -D
+# Build site with draft
+# hugo -D
+# Build site without draft
+hugo
 
 # Go To Public folder
 cd public
